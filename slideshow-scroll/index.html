@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>スライドショー</title>
+  <!-- jQuery本体 -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Slideshow</h1>
+    </header>
+
+    <div id="slide">
+      <ul>
+        <li><img src="../img/img1.jpg" alt="img1"></li>
+        <li><img src="../img/img2.jpg" alt="img2"></li>
+        <li><img src="../img/img3.jpg" alt="img3"></li>
+      </ul>
+
+      <!-- 画像を右にスライド（左の画像を表示） -->
+      <button id="prevBtn">
+        <img src="../img/prev.png" alt="Prev">
+      </button>
+
+      <!-- 画像を左にスライド（右の画像を表示） -->
+      <button id="nextBtn">
+        <img src="../img/next.png" alt="Next">
+      </button>
+    </div><!-- /#slide -->
+  </div><!-- /#wrapper -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

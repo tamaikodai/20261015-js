@@ -1,0 +1,40 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #6d4a4a;
+  color: #a8dcdb;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 40px 25px;
+}
+
+#slide ul {
+  position: relative;
+}
+
+#slide li {
+  position: absolute;
+  width: 100%;
+}

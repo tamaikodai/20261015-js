@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+  background: #a8dcdb;
+  color: #715252;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3em;
+  text-align: center;
+  padding: 40px 25px;
+}
+
+#slide {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+#slide ul {
+  position: absolute;
+  width: 3000px;
+  margin: 0;
+  padding: 0;
+}
+
+#slide li {
+  float: left;
+  width: 1000px;
+  list-style: none;
+}
+
+button {
+  opacity: 0.6;
+  transition: opacity .2s;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  opacity: 1;
+}
+
+#prevBtn,#nextBtn{
+    position: absolute;
+    top: 225px;
+}
+
+#prevBtn{
+    left: 20px;
+}
+
+#nextBtn{
+    right: 20px;
+}
